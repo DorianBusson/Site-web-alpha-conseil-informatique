@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>ALPHA CONSEIL INFORMATIQUE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  
+
+<!-- page-->
+<div class="container">
+  <section class="background">
+    <div class="content-wrapper"> <!-- bloc css page 1 et 3 -->
+      <p class="content-title">ALPHA CONSEIL INFORMATIQUE</p>
+      <p class="content-subtitle-1">A votre service depuis 1999. Vous trouverez chez nous vos solutions informatiques : Ordinateurs de bureau montés par nos soins, PC portables, Tablettes, Antivirus, Packs Office, imprimantes, cartouches d’encre, toners, …</p>
+      <p class="content-subtitle-2">507 route de Berck,<br>62180 Rang-du-Fliers,<br>Pas-de-Calais. <br>Tél. 03 21 84 73 90 <br> alphaconseil.informatique@orange.fr</p>
+      <button onclick="flecheBas()" class="bouton">↓</button>
+    </div>
+  </section>
+  <section class="background">
+    <div class="content-wrapper-1"> <!-- bloc page 2 -->
+      <p class="content-title-1">à votre service pour résoudre vos problèmes</p>
+      <p class="content-subtitle-3">Votre machine est lente ? elle est rongée de logiciels malveillants ? votre écran reste noir ?
+        Votre appareil semble n’en faire qu’à sa tête ?
+        Pas de panique : nous sommes là pour vous apporter les solutions les plus adaptées à la situation de votre machine afin de vous la rendre au mieux de sa forme.</p>
+        <IMG src="maintenance.jpg" class="maintenance">
+          <div class="changement_page">
+         <button onclick="flecheHaut()" class="bouton_page_2">↑</button>
+          <button onclick="flecheBas()" class="bouton_page_2">↓</button>
+        </div>
+
+    </div>
+  </section>
+  <section class="background"> 
+    <div class="content-wrapper">  <!-- bloc css page 3 et 1 -->
+      <p class="content-title">n'hésitez pas à nous laisser votre avis</p>
+      <p class="content-subtitle"></p>
+     
+     
+      <div id="slider"><!-- Slider d'avis googles-->
+        <a href="#" class="control_next">></a> 
+        <a href="#" class="control_prev"><</a>
+        <ul>
+          <li style="background: white;"><IMG src="avis.jpg" class="avis"></li> <!-- image d'avis-->
+          <li style="background: white;"><IMG src="avis1.jpg" class="avis1">  </li> <!-- image d'avis-->
+          <li style="background: white;"><IMG src="avis2.jpg" class="avis2"> </li> <!-- image d'avis-->
+          <li style="background: white;"><IMG src="avis3.jpg" class="avis3"></li> <!-- image d'avis-->
+        </ul>  
+       
+      </div>
+      
+      <button onclick="flecheHaut()" class="bouton_page_3">↑</button>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
