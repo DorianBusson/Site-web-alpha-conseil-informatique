@@ -136,3 +136,7 @@ jQuery(document).ready(function ($) {
     });
 
 });    
+
+/* source de certain élément du code ci dessus:*/
+
+/*  Copyright (c) 2020 by Emily Hayman (https://codepen.io/eehayman) */
